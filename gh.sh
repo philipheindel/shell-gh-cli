@@ -3,14 +3,63 @@
 username=$(git config --global --get user.github)
 
 gh_issue() {
+  if [ "$1" = "create" ]
+  then
+  
+  elif [ "$1" = "list" ]
+  then
+  
+  elif [ "$1" = "status" ]
+  then
+  
+  elif [ "$1" = "view" ]
+  then
+  
+  else
+  
+  fi
   echo issue
 }
 
 gh_pr() {
+  if [ "$1" = "checkout" ]
+  then
+  
+  elif [ "$1" = "create" ]
+  then
+  
+  elif [ "$1" = "list" ]
+  then
+  
+  elif [ "$1" = "status" ]
+  then
+  
+  elif [ "$1" = "view" ]
+  then
+  
+  else
+  
+  fi
   echo pr
 }
 
 gh_repo() {
+  if [ "$1" = "clone" ]
+  then
+    url="https://github.com/${username}/${2}.git"
+    git clone $url
+  elif [ "$1" = "create" ]
+  then
+  
+  elif [ "$1" = "fork" ]
+  then
+  
+  elif [ "$1" = "view" ]
+  then
+  
+  else
+  
+  fi
   echo repo
 }
 
