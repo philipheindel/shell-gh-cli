@@ -54,6 +54,9 @@ gh_repo() {
   elif [ "$1" = "fork" ]
   then
   
+  elif [ "$1" = "list" ]
+  then
+  
   elif [ "$1" = "view" ]
   then
   
