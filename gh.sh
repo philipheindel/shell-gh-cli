@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git config --global user.username
+username=$(git config --global --get user.github)
 
 gh_issue() {
   echo issue
