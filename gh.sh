@@ -19,16 +19,16 @@ gh_help() {
 }
 
 gh_cli() {
-  if [ "$1" = "issue" ] ;
+  if [ "$1" = "issue" ]
   then
     gh_issue $2
-  elif [ "$1" = "pr" ] ;
+  elif [ "$1" = "pr" ]
   then
     gh_pr $2
-  elif [ "$1" = "repo" ] ;
+  elif [ "$1" = "repo" ]
   then
     gh_repo $2
-  elif [ "$1" = "help" ] ;
+  elif [ "$1" = "help" ]
   then
     gh_help $2
   else
