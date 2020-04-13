@@ -3,19 +3,19 @@
 git config --global user.username
 
 gh_issue() {
-
+  echo issue
 }
 
 gh_pr() {
-
+  echo pr
 }
 
 gh_repo() {
-
+  echo repo
 }
 
 gh_help() {
-
+  echo help
 }
 
 gh_cli() {
